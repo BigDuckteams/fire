@@ -1,5 +1,44 @@
-node_modules/
-*.tar.gz
-*.zip
+# Unity-generated files
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/[Tt]est[Rr]esults/
+/Releases/
+/dist/
+
+# IDE-generated files
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Local build products
+*.apk
+*.aab
+*.unitypackage
+sysinfo.txt
+crashlytics-build.properties
+
+# Local automation notes and execution output
+AGENTS.md
+AGENT_*.md
+**/AGENT_*.md
+/docs/verification/*-output/
+
+# OS metadata
 .DS_Store
-test-results/
+Thumbs.db
